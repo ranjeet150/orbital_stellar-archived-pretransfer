@@ -1,7 +1,7 @@
 {
   "name": "@orbital-stellar/pulse-notify",
   "version": "0.1.0",
-  "description": "React hooks for live Stellar events — useStellarEvent, useStellarPayment, useStellarActivity.",
+  "description": "React hooks for live Stellar events - useStellarEvent, useStellarPayment, useStellarActivity.",
   "license": "MIT",
   "engines": {
     "node": ">=20"
@@ -37,7 +37,7 @@
     "access": "public"
   },
   "scripts": {
-    "build": "tsc -p tsconfig.json",
+    "build": "node init && tsc -p tsconfig.json",
     "test": "vitest run",
     "test:coverage": "vitest run --coverage",
     "size": "size-limit"
